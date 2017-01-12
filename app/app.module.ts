@@ -3,13 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AngularFireModule } from 'angularfire2';
 import { AppComponent } from './app.component';
 
+// Your App Configuration which can found on firebase.google.com
 export const firebaseConfig = {
-  apiKey: "AIzaSyCnaeajCvUlSe_dtsp5KmDowstSvcnqwVA",
-  authDomain: "exaple-deploy.firebaseapp.com",
-  databaseURL: "https://exaple-deploy.firebaseio.com",
-  storageBucket: "exaple-deploy.appspot.com",
-  messagingSenderId: "807105921955"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  storageBucket: "",
+  messagingSenderId: ""
 };
+// Your App Configuration which can found on firebase.google.com
 
 @NgModule({
   imports: [BrowserModule,

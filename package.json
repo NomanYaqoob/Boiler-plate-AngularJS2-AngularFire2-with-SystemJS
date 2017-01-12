@@ -1,7 +1,7 @@
 {
-  "name": "angular-quickstart",
+  "name": "boiler-plate-angular2-angularfire2",
   "version": "1.0.0",
-  "description": "QuickStart package.json from the documentation, supplemented with testing support",
+  "description": "QuickStart for AngularFire2 with AngularJS2",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "e2e": "tsc && concurrently \"http-server -s\" \"protractor protractor.config.js\" --kill-others --success first",
@@ -14,7 +14,7 @@
     "tsc:w": "tsc -w"
   },
   "keywords": [],
-  "author": "",
+  "author": "github.com/nomanyaqoob",
   "license": "MIT",
   "dependencies": {
     "@angular/common": "~2.4.0",

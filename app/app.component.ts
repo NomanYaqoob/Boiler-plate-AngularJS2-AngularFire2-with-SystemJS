@@ -2,11 +2,7 @@ import { Component } from '@angular/core';
 import { AngularFire, FirebaseListObservable } from "angularfire2"
 @Component({
   selector: 'my-app',
-  template: `<ul>
-  <li class="text" *ngFor="let item of items | async">
-    {{item.$value}}
-  </li>
-</ul>`,
+  template: `<h1>Hello World</h1>`,
 })
 export class AppComponent {
 
