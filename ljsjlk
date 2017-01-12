@@ -1,0 +1,239 @@
+[33mcommit eda3873cce79646296170ffa66c1fbb4e97023d3[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Thu Jan 5 18:36:36 2017 -0800
+
+    chore: add non-essential-files.txt and instrucs
+
+[33mcommit 588fd3c2a0ce8f8412d7ee6f0af5801b0eeda463[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Mon Jan 2 14:43:46 2017 -0800
+
+    chore(readme): npm start doesn't work in Bash for Windows
+
+[33mcommit b98f50fd88a5b177b93e81458cd1beebedcedfb2[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Mon Jan 2 21:15:36 2017 +0000
+
+    chore(deps): remove reflect-metadata (#343)
+    
+    Blocked on https://github.com/angular/in-memory-web-api/pull/86
+    
+    As per https://github.com/zloirock/core-js/issues/152, `core-js` already includes `reflect-metadata`.
+
+[33mcommit 3150b604822768c463b4e304f840a75c1237859d[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Wed Dec 21 17:41:31 2016 -0800
+
+    chore: bump to latest in-memory-web-api version
+
+[33mcommit bb064832aaa14063d84aca4e2e98711dcccdb42e[m
+Author: Craig <cnishina@users.noreply.github.com>
+Date:   Wed Dec 21 01:53:40 2016 -0800
+
+    fix(deps): remove selenium-webdriver typings and update protractor version (#332)
+
+[33mcommit b55d76119253df57e9dcf3557f494588f4a6dd4a[m
+Author: Jesús Rodríguez <Foxandxss@gmail.com>
+Date:   Wed Dec 21 01:51:04 2016 +0100
+
+    chore: bump to 2.4.0 (#331)
+
+[33mcommit d8c3cba7baa9fa2eaf3cc3f60332abfb2fbfb7f0[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Tue Dec 20 17:56:13 2016 +0000
+
+    fix(deps): pin webdriver and zone.js (#330)
+    
+    When https://github.com/angular/protractor/pull/3848 is ready it should fix the webdriver types issues, and the pinning can be reverted.
+    
+    The zone.js problem is being tracked on https://github.com/angular/zone.js/issues/554.
+    
+    Fix https://github.com/angular/quickstart/issues/325
+
+[33mcommit d765934b532e84c0f06ea34282f1eea58c538371[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Wed Dec 14 19:08:23 2016 -0800
+
+    chore: update changelog
+
+[33mcommit ad20b8d7b39d82f8695df54fe36d3fe65423db0f[m
+Merge: e87fbef e2dc603
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Wed Dec 14 19:03:45 2016 -0800
+
+    Merge branch 'master' of https://github.com/angular/quickstart
+
+[33mcommit e87fbef98e7fcc57a1c17d5c876fa6d7043d7854[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Wed Dec 14 19:03:39 2016 -0800
+
+    chore: update in-mem to v.0.2.1
+
+[33mcommit e2dc603363d588bc529acaeb7769235b12c834c9[m
+Author: Adriano dos Santos Fernandes <asfernandes@users.noreply.github.com>
+Date:   Tue Dec 13 06:08:21 2016 -0200
+
+    Correction for when we change tsconfig.json/outDir and karma.conf/appBase. (#314)
+
+[33mcommit 1249afd56492812f8cb5ef0e054731961f3470f2[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Mon Dec 12 20:43:33 2016 -0800
+
+     chore: update example package.json to use in-mem-web-api 0.2.0
+     This update ensures examples get "cold" observables from `Http` when using in-mem-web-api
+
+[33mcommit 730682fb22f4722515d5c9f1f656525bc87b0d0b[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Mon Dec 12 13:34:55 2016 +0000
+
+    ci: update protractor (#318)
+
+[33mcommit 9acb6303a749ff7ae449b6c0f5364b408dc82e78[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Wed Dec 7 23:53:45 2016 +0000
+
+    chore: update to 2.3.0 (#308)
+    
+    chore: update to 2.3.0
+
+[33mcommit 2867bc166145459a7ea7e25345a19311595fc93e[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Wed Nov 30 15:33:48 2016 -0800
+
+    chore: karma.conf cosmetic changes
+
+[33mcommit 867d54c22d2b07e51070a5319022dc257a442c11[m
+Merge: d68eb81 3adfdf7
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Wed Nov 30 14:31:05 2016 -0800
+
+    chore(config): remove upgrade package mappings
+    closes #301
+
+[33mcommit 3adfdf768d94355540ee78f589d9e53bcf40a368[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Wed Nov 30 12:33:46 2016 -0800
+
+    chore: test framework improvements, remove tsconfig `exclude` clause
+    * remove `exclude` clause from `tsconfig.json`; it was just confusing people
+    * karma.config + karma-test-shim can handle multiple spec source paths (issue #294)
+    * cosmetic `app.component.spec.ts` changes
+    * cosmetic `karma.config.js` changes
+
+[33mcommit ce8fcdcd4f0988cbadbcf4fc41bd530e3c607222[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Wed Nov 23 00:06:13 2016 +0000
+
+    Update CHANGELOG.md (#299)
+
+[33mcommit d68eb81fcda8119486d25ca5433c28968d937ee2[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Thu Nov 24 16:13:56 2016 +0000
+
+    chore(config): remove upgrade package mappings
+    
+    The package is not listed in `package.json` and https://github.com/angular/angular.io/pull/2803 will contain instructions to add it manually.
+
+[33mcommit 6caf4ccff1f437f357f8c80fe5440dcdaf74545e[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Wed Nov 23 00:06:13 2016 +0000
+
+    Update CHANGELOG.md (#299)
+
+[33mcommit 9f2e627cc3a4b263d1c6f750d48663bfb0269d31[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Tue Nov 22 16:00:41 2016 -0800
+
+    chore: revise to conform to QS reboot in angular.io PR #2762 (#287)
+
+[33mcommit 755614827ae6381a6c343b861efe52d66c0aba4e[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Fri Nov 18 08:53:06 2016 +0000
+
+    chore: simplify gitignore (#68)
+
+[33mcommit 801aa94c670de6d82c461882536af19d01784aa2[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Fri Nov 18 02:46:22 2016 +0000
+
+    chore(config): add 2.2.0 router/upgrade entry point (#285)
+
+[33mcommit 1f9ff3ee0a832124383f39c185177af43ad738e4[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Tue Nov 15 09:38:00 2016 +0000
+
+    Add @angular/upgrade/static to systemjs.config.js (#281)
+    
+    Blocked by https://github.com/angular/angular.io/pull/2781 and Angular 2.2.0.
+
+[33mcommit c36ac4d361cf322589fdf72a65c7742feb4b80b1[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Mon Nov 14 23:11:51 2016 +0000
+
+    chore: update to angular 2.2.0 (#283)
+
+[33mcommit 9de879d93f5e5c4040c6ecc2a28e260f40cd9116[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Mon Nov 7 18:23:21 2016 -0800
+
+    chore: drop '!' from  "Hello Angular!"
+
+[33mcommit bfd1896fd65069872dbe40f891148dde8c1df7f1[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Fri Nov 4 11:58:32 2016 -0700
+
+    chore: change message to "Hello Angular!"
+
+[33mcommit f6075a1fe7dae8012040f2cfa529a91f945baa17[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Sat Oct 29 23:50:18 2016 -0700
+
+    chore(testing): revert to jasmine v.2.4.1 (#272)
+    
+    Bug in Jasmine v.2.5.x, reported in https://github.com/jasmine/jasmine/issues/1231
+    
+    Stick with v.2.4.1 (as karma-jasmine does) until the issue is resolved
+    Unfortunately, there is no @types/jasmine for v.2.4 but only for v.2.5.
+
+[33mcommit cd7b566fca6ad4074c674748451181f4bcc2ddc7[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Sat Oct 29 18:09:57 2016 -0700
+
+    fix: karma shim values; update app.component.spec more like cli
+
+[33mcommit e2d55c59402f935558f0ac9a8769732cb1c6cd18[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Sat Oct 29 22:31:46 2016 +0100
+
+    fix(e2e): restore e2e fix (#271)
+    
+    See #266
+
+[33mcommit a654977e1d12930044bf495f392a0ec7af42a313[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Sat Oct 29 10:38:18 2016 -0700
+
+    chore: update to 2.1.2; remove bootstrap.css (#270)
+
+[33mcommit 3ed4ad4b5304f5272c3b3f327b3b0d7bac9e6d69[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Thu Oct 27 14:21:50 2016 +0100
+
+    fix(e2e): fix travis webdriver issue (#266)
+
+[33mcommit c002d0ec8da9e52a746a8e1ad8a0054514c806f0[m
+Author: Filipe Silva <filipematossilva@gmail.com>
+Date:   Thu Oct 27 13:59:07 2016 +0100
+
+    chore(editorconfig): remove end_of_line setting (#267)
+    
+    Using `end_of_line` causes issues on windows machines.
+
+[33mcommit ccb97afdfeacc317176f4defec1f3fa8bb796829[m
+Author: Ward Bell <wardbell@hotmail.com>
+Date:   Sun Oct 23 00:30:33 2016 -0700
+
+    chore(tsconfig): add compileOnSave and exclude -aot.ts files
+
+[33mcommit 80684c1d0d03d6ccb85757ba46f4a7c962aedb43[m
+Author: Natash
